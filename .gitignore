@@ -1,0 +1,12 @@
+# Ignore bundler config.
+/.bundle
+
+# Ignore other unneeded files.
+.project
+sample_app.sublime-project
+sample_app.sublime-workspace
+*.gem
+Gemfile.lock
+pkg/*
+*.swp
+*.swo
