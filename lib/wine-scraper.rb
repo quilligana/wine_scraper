@@ -1,6 +1,1 @@
-class WineScraper
-	
-	def initialize()
-	end
-
-end
+require 'wine-scraper/scraper'
