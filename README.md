@@ -24,6 +24,10 @@ Or install it yourself as:
 
 TODO: Write usage instructions here
 
+## License
+
+This code is free to use under the terms of the MIT license.
+
 ## Contributing
 
 1. Fork it
