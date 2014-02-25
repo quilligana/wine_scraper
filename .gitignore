@@ -3,8 +3,8 @@
 
 # Ignore other unneeded files.
 .project
-sample_app.sublime-project
-sample_app.sublime-workspace
+.sublime-project
+.sublime-workspace
 *.gem
 pkg/*
 *.swp
