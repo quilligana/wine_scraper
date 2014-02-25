@@ -1,5 +1,6 @@
 module WineScraper
 	require "open-uri"
+	require "nokogiri"
 	
     class Scraper
   	  attr_reader :doc
@@ -8,5 +9,5 @@ module WineScraper
         @doc = Nokogiri::HTML(open(url))
       end
 
-  end
+    end
 end
