@@ -4,8 +4,8 @@
 		"selected_items":
 		[
 			[
-				"h",
-				"h2	Tag"
+				"do",
+				"do"
 			],
 			[
 				"users",
@@ -16,16 +16,16 @@
 				"signed_in_user"
 			],
 			[
+				"h",
+				"h1	Tag"
+			],
+			[
 				"nam",
 				"name"
 			],
 			[
 				"be",
 				"before"
-			],
-			[
-				"do",
-				"do"
 			],
 			[
 				"if",
@@ -40,69 +40,18 @@
 	"buffers":
 	[
 		{
-			"file": "lib/wine-scraper/version.rb",
+			"file": "/C/Users/aidan/rails_projects/sample_app/config/routes.rb",
 			"settings":
 			{
-				"buffer_size": 42,
-				"line_ending": "Windows"
+				"buffer_size": 2117,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "Rakefile",
+			"file": "/C/Users/aidan/rails_projects/sample_app/app/controllers/users_controller.rb",
 			"settings":
 			{
-				"buffer_size": 27,
-				"line_ending": "Windows",
-				"name": "require 'bundler'"
-			}
-		},
-		{
-			"file": "lib/wine-scraper/scraper.rb",
-			"settings":
-			{
-				"buffer_size": 190,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "lib/wine-scraper.rb",
-			"settings":
-			{
-				"buffer_size": 30,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "spec/wine-scraper_spec.rb",
-			"settings":
-			{
-				"buffer_size": 478,
-				"line_ending": "Windows",
-				"name": "require wine-scraper"
-			}
-		},
-		{
-			"file": "wine-scraper.gemspec",
-			"settings":
-			{
-				"buffer_size": 1021,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "spec/spec_helper.rb",
-			"settings":
-			{
-				"buffer_size": 75,
-				"line_ending": "Windows",
-				"name": "require 'webmock/rspec'"
-			}
-		},
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 1088,
+				"buffer_size": 1612,
 				"line_ending": "Unix"
 			}
 		},
@@ -113,30 +62,38 @@
 				"buffer_size": 359,
 				"line_ending": "Windows"
 			}
+		},
+		{
+			"file": "/C/Users/aidan/rails_projects/sample_app/app/controllers/application_controller.rb",
+			"settings":
+			{
+				"buffer_size": 229,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/aidan/rails_projects/sample_app/app/controllers/sessions_controller.rb",
+			"settings":
+			{
+				"buffer_size": 433,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/aidan/rails_projects/sample_app/app/helpers/sessions_helper.rb",
+			"settings":
+			{
+				"buffer_size": 990,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 311.0,
+		"height": 196.0,
 		"selected_items":
 		[
-			[
-				"Package Control: ",
-				"Package Control: Enable Package"
-			],
-			[
-				"Package Control: li",
-				"Package Control: List Packages"
-			],
-			[
-				"Snippet: for",
-				"Snippet: form_for"
-			],
-			[
-				"Snippet: ",
-				"Snippet: form_tag"
-			],
 			[
 				"save",
 				"Project: Save As"
@@ -146,11 +103,11 @@
 				"Project: Add Folder"
 			]
 		],
-		"width": 400.0
+		"width": 512.0
 	},
 	"console":
 	{
-		"height": 125.0
+		"height": 0.0
 	},
 	"distraction_free":
 	{
@@ -163,66 +120,52 @@
 	},
 	"file_history":
 	[
-		"/C/Users/aidan/rails_projects/wine_scraper/lib/wine-scraper/scraper.rb",
-		"/C/Users/aidan/rails_projects/test/test.gemspec",
-		"/C/Users/aidan/rails_projects/wine_scraper/Gemfile",
-		"/C/Users/aidan/rails_projects/test/README.md",
-		"/C/Users/aidan/rails_projects/wine_scraper/README.md",
-		"/C/Users/aidan/rails_projects/test/Gemfile",
-		"/C/Users/aidan/rails_projects/scraper_gem-master/daft.gemspec",
-		"/C/Users/aidan/rails_projects/scraper_gem-master/lib/daft/version.rb",
-		"/C/Users/aidan/rails_projects/test/Rakefile",
-		"/C/Users/aidan/rails_projects/wine_scraper/.gitignore",
-		"/C/Users/aidan/rails_projects/sample_app/README.md",
-		"/C/Users/aidan/rails_projects/wine_scraper/lib/scraper.rb",
-		"/C/Users/aidan/rails_projects/wine_scraper/wine-scraper.gemspec",
-		"/C/Users/aidan/rails_projects/wine_scraper/lib/wine-scraper/version.rb",
-		"/C/Users/aidan/rails_projects/wine_scraper/lib/wine-scraper.rb",
-		"/C/Users/aidan/rails_projects/sample_app/Gemfile",
-		"/C/Users/aidan/rails_projects/my_site/app/assets/stylesheets/custom.css.scss",
-		"/C/Users/aidan/rails_projects/my_site/app/assets/stylesheets/application.css.scss",
-		"/C/Users/aidan/rails_projects/my_site/app/views/layouts/_footer.html.erb",
-		"/C/Users/aidan/rails_projects/my_site/app/views/layouts/_header.html.erb",
-		"/C/Users/aidan/rails_projects/my_site/app/assets/stylesheets/foundation_and_overrides.scss",
-		"/C/Users/aidan/rails_projects/my_site/app/views/static_pages/home.html.erb",
-		"/C/Users/aidan/rails_projects/my_site/app/views/layouts/application.html.erb",
-		"/C/Users/aidan/rails_projects/my_site/app/views/posts/_post.html.erb",
-		"/C/Users/aidan/rails_projects/my_site/app/views/posts/index.html.erb",
-		"/C/Users/aidan/rails_projects/my_site/app/controllers/posts_controller.rb",
-		"/C/Users/aidan/rails_projects/my_site/app/views/posts/show.html.erb",
-		"/C/Users/aidan/rails_projects/my_site/config/routes.rb",
-		"/C/Users/aidan/rails_projects/my_site/app/controllers/static_pages_controller.rb",
-		"/C/Users/aidan/rails_projects/my_site/config.ru",
-		"/C/Users/aidan/rails_projects/my_site/.secret",
-		"/C/Users/aidan/AppData/Roaming/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
-		"/C/Users/aidan/rails_projects/my_site/.gitignore",
-		"/C/Users/aidan/rails_projects/my_site/app/views/posts/new.html.erb",
-		"/C/Users/aidan/rails_projects/my_site/db/migrate/20140130002056_create_posts.rb",
-		"/C/Users/aidan/rails_projects/my_site/Gemfile",
-		"/C/Users/aidan/rails_projects/my_site/app/assets/javascripts/application.js",
-		"/C/Users/aidan/rails_projects/my_site/app/controllers/application_controller.rb",
-		"/C/Users/aidan/rails_projects/my_site/config/initializers/secret_token.rb",
-		"/C/Users/aidan/rails_projects/my_site/app/views/static_pages/index.html.erb",
+		"/C/Users/aidan/rails_projects/wine_scraper/wine_scraper.sublime-workspace",
 		"/C/Users/aidan/rails_projects/sample_app/.gitignore",
-		"/C/Users/aidan/rails_projects/my_site/README.rdoc",
-		"/C/Users/aidan/rails_projects/blog_kit-master/init.rb",
-		"/C/Users/aidan/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
-		"/C/Users/aidan/rails_projects/blog_kit-master/README.md",
-		"/C/Users/aidan/rails_projects/sample_app/app/controllers/microposts_controller.rb",
+		"/C/Users/aidan/rails_projects/sample_app/README.md",
+		"/C/Users/aidan/rails_projects/sample_app/app/helpers/sessions_helper.rb",
+		"/C/Users/aidan/rails_projects/sample_app/app/assets/stylesheets/custom.css.scss",
+		"/C/Users/aidan/rails_projects/sample_app/spec/requests/user_pages_spec.rb",
+		"/C/Users/aidan/rails_projects/sample_app/spec/requests/static_pages_spec.rb",
+		"/C/Users/aidan/rails_projects/sample_app/spec/requests/micropost_pages_spec.rb",
+		"/C/Users/aidan/rails_projects/sample_app/app/views/users/show.html.erb",
+		"/C/Users/aidan/rails_projects/sample_app/app/views/layouts/_header.html.erb",
+		"/C/Users/aidan/rails_projects/sample_app/app/views/layouts/_footer.html.erb",
+		"/C/Users/aidan/rails_projects/sample_app/lib/tasks/sample_data.rake",
+		"/C/Users/aidan/rails_projects/sample_app/app/models/relationship.rb",
 		"/C/Users/aidan/rails_projects/sample_app/app/models/user.rb",
+		"/C/Users/aidan/rails_projects/sample_app/spec/models/user_spec.rb",
+		"/C/Users/aidan/rails_projects/sample_app/spec/models/relationship_spec.rb",
+		"/C/Users/aidan/rails_projects/wine_scraper/.gitignore",
+		"/C/Users/aidan/rails_projects/callcentre/.gitignore",
+		"/C/Users/aidan/rails_projects/wine_scraper/README.md",
+		"/C/Users/aidan/rails_projects/sample_app/app/helpers/microposts_helper.rb",
+		"/C/Users/aidan/rails_projects/sample_app/app/views/shared/_error_messages.html.erb",
+		"/C/Users/aidan/rails_projects/sample_app/app/views/users/_fields.html.erb",
+		"/C/Users/aidan/rails_projects/sample_app/app/views/shared/_micropost_delete.html.erb",
+		"/C/Users/aidan/rails_projects/sample_app/app/views/microposts/_micropost.html.erb",
+		"/C/Users/aidan/rails_projects/sample_app/app/views/shared/_feed_item.html.erb",
+		"/C/Users/aidan/rails_projects/sample_app/app/views/shared/_generic_homepage.html.erb",
+		"/C/Users/aidan/rails_projects/sample_app/db/migrate/20140223224616_create_relationships.rb",
+		"/C/Users/aidan/rails_projects/sample_app/app/helpers/static_pages_helper.rb",
+		"/C/Users/aidan/rails_projects/sample_app/app/views/shared/_feed.html.erb",
+		"/C/Users/aidan/rails_projects/sample_app/app/views/shared/_user_info.html.erb",
+		"/C/Users/aidan/rails_projects/sample_app/app/views/shared/_signed_in_user_hp.html.erb",
+		"/C/Users/aidan/rails_projects/sample_app/app/views/static_pages/home.html.erb",
+		"/C/Users/aidan/rails_projects/sample_app/app/controllers/users_controller.rb",
+		"/C/Users/aidan/rails_projects/sample_app/app/controllers/microposts_controller.rb",
+		"/C/Users/aidan/rails_projects/sample_app/spec/factories.rb",
+		"/C/Users/aidan/rails_projects/sample_app/spec/spec_helper.rb",
+		"/C/Users/aidan/rails_projects/sample_app/app/views/shared/_generic_homepage.html",
+		"/C/Users/aidan/rails_projects/sample_app/app/views/shared/_micropost_form.html.erb",
+		"/C/Users/aidan/rails_projects/sample_app/spec/models/micropost_spec.rb",
+		"/C/Users/aidan/rails_projects/sample_app/spec/requests/authentication_pages_spec.rb",
+		"/C/Users/aidan/rails_projects/sample_app/app/controllers/static_pages_controller.rb",
+		"/C/Users/aidan/rails_projects/blog_kit-master/README.md",
 		"/C/Users/aidan/rails_projects/sample_app/app/models/micropost.rb",
 		"/C/Users/aidan/rails_projects/blog_kit-master/app/models/blog_comment.rb",
 		"/C/Users/aidan/rails_projects/sample_app/app/controllers/sessions_controller.rb",
-		"/C/Users/aidan/rails_projects/sample_app/app/views/shared/_user_info.html.erb",
-		"/C/Users/aidan/rails_projects/sample_app/app/views/shared/_error_messages.html.erb",
-		"/C/Users/aidan/rails_projects/sample_app/app/views/users/_fields.html.erb",
-		"/C/Users/aidan/rails_projects/sample_app/app/helpers/sessions_helper.rb",
 		"/C/Users/aidan/rails_projects/sample_app/config/routes.rb",
-		"/C/Users/aidan/rails_projects/sample_app/app/views/users/show.html.erb",
-		"/C/Users/aidan/rails_projects/sample_app/app/views/microposts/_micropost.html.erb",
-		"/C/Users/aidan/rails_projects/sample_app/spec/factories.rb",
-		"/C/Users/aidan/rails_projects/sample_app/lib/tasks/sample_data.rake",
-		"/C/Users/aidan/rails_projects/sample_app/app/assets/stylesheets/custom.css.scss",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/microposts/_microposts.html.erb",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/users/edit.html.erb",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/users/new.html.erb",
@@ -230,19 +173,15 @@
 		"/C/Users/aidan/rails_projects/sample_app/app/helpers/application_helper.rb",
 		"/C/Users/aidan/rails_projects/sample_app/app/helpers/users_helper.rb",
 		"/C/Users/aidan/rails_projects/sample_app/spec/support/utilities.rb",
-		"/C/Users/aidan/rails_projects/sample_app/app/views/layouts/_header.html.erb",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/sessions/new.html.erb",
-		"/C/Users/aidan/rails_projects/sample_app/app/helpers/static_pages_helper.rb",
-		"/C/Users/aidan/rails_projects/sample_app/spec/spec_helper.rb",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/users/_user.html.erb",
+		"/C/Users/aidan/rails_projects/sample_app/Gemfile",
 		"/C/Users/aidan/rails_projects/sample_app/db/migrate/20131229202824_add_admin_to_users.rb",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/users/index.html.erb",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/sessions/edit.html.erb",
 		"/C/Users/aidan/rails_projects/sample_app/app/controllers/application_controller.rb",
 		"/C/Users/aidan/rails_projects/demo_app/README.rdoc",
-		"/C/Users/aidan/rails_projects/sample_app/spec/requests/static_pages_spec.rb",
 		"/C/Users/aidan/rails_projects/sample_app/app/assets/javascripts/sessions.js.coffee",
-		"/C/Users/aidan/rails_projects/sample_app/app/controllers/users_controller.rb",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/layouts/application.html.erb",
 		"/C/Users/aidan/rails_projects/sample_app/app/assets/javascripts/application.js",
 		"/C/Users/aidan/rails_projects/sample_app/.git/logs/HEAD",
@@ -254,11 +193,8 @@
 		"/C/Users/aidan/rails_projects/sample_app/db/migrate/20131116001811_add_password_digest_to_users.rb",
 		"/C/Users/aidan/rails_projects/sample_app/Gemfile.lock",
 		"/C/Users/aidan/rails_projects/sample_app/db/migrate/20131116000646_add_index_to_users_email.rb",
-		"/C/Users/aidan/rails_projects/sample_app/app/controllers/static_pages_controller.rb",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/static_pages/contact.html.erb",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/static_pages/about.html.erb",
-		"/C/Users/aidan/rails_projects/sample_app/app/views/layouts/_footer.html.erb",
-		"/C/Users/aidan/rails_projects/sample_app/app/views/static_pages/home.html.erb",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/layouts/_shim.html.erb",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/layouts/_shim",
 		"/C/Users/aidan/rails_projects/sample_app/app/views/static_pages/help.html.erb",
@@ -290,11 +226,15 @@
 		"/C/Users/aidan/rails_projects/demo_app/config/routes.rb",
 		"/C/Users/aidan/rails_projects/demo_app/.gitignore",
 		"/C/Users/aidan/rails_projects/demo_app/Rakefile",
-		"/C/Users/aidan/rails_projects/first_app/Gemfile"
+		"/C/Users/aidan/rails_projects/first_app/Gemfile",
+		"/C/Users/aidan/rails_projects/first_app/README.md",
+		"/C/Users/aidan/rails_projects/first_app/first_app.sublime-project",
+		"/C/Users/aidan/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Users/aidan/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 0.0
 	},
 	"find_in_files":
 	{
@@ -308,18 +248,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"h4",
-			"inline-list",
-			"button",
-			"button-group",
-			"button",
-			"button-group",
-			"padding-top",
-			"margin",
-			"primary-color",
-			"anchor",
-			"<h1>",
-			"body",
 			"user",
 			"Confirmation",
 			"confirmation",
@@ -350,23 +278,25 @@
 			[
 				{
 					"buffer": 0,
-					"file": "lib/wine-scraper/version.rb",
+					"file": "/C/Users/aidan/rails_projects/sample_app/config/routes.rb",
 					"settings":
 					{
-						"buffer_size": 42,
+						"buffer_size": 2117,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								42,
-								42
+								1254,
+								1254
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -376,24 +306,25 @@
 				},
 				{
 					"buffer": 1,
-					"file": "Rakefile",
+					"file": "/C/Users/aidan/rails_projects/sample_app/app/controllers/users_controller.rb",
 					"settings":
 					{
-						"buffer_size": 27,
+						"buffer_size": 1612,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								27,
-								27
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"auto_name": "require 'bundler'",
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -403,18 +334,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "lib/wine-scraper/scraper.rb",
+					"file": "scraper_test.rb",
 					"settings":
 					{
-						"buffer_size": 190,
+						"buffer_size": 359,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								190,
-								190
+								0,
+								0
 							]
 						],
 						"settings":
@@ -426,27 +357,21 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 4,
-			"sheets":
-			[
+				},
 				{
 					"buffer": 3,
-					"file": "lib/wine-scraper.rb",
+					"file": "/C/Users/aidan/rails_projects/sample_app/app/controllers/application_controller.rb",
 					"settings":
 					{
-						"buffer_size": 30,
+						"buffer_size": 229,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								29,
-								29
+								224,
+								202
 							]
 						],
 						"settings":
@@ -461,45 +386,46 @@
 				},
 				{
 					"buffer": 4,
-					"file": "spec/wine-scraper_spec.rb",
+					"file": "/C/Users/aidan/rails_projects/sample_app/app/controllers/sessions_controller.rb",
 					"settings":
 					{
-						"buffer_size": 478,
+						"buffer_size": 433,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								478,
-								478
+								432,
+								432
 							]
 						],
 						"settings":
 						{
-							"auto_name": "require wine-scraper",
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 18.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "wine-scraper.gemspec",
+					"file": "/C/Users/aidan/rails_projects/sample_app/app/helpers/sessions_helper.rb",
 					"settings":
 					{
-						"buffer_size": 1021,
+						"buffer_size": 990,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								942,
-								942
+								249,
+								24
 							]
 						],
 						"settings":
@@ -507,85 +433,6 @@
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 13.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "spec/spec_helper.rb",
-					"settings":
-					{
-						"buffer_size": 75,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"auto_name": "require 'webmock/rspec'",
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "README.md",
-					"settings":
-					{
-						"buffer_size": 1088,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								923,
-								923
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "scraper_test.rb",
-					"settings":
-					{
-						"buffer_size": 359,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								359,
-								359
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -613,18 +460,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
 			1.0
 		],
 		"rows":
@@ -674,7 +514,7 @@
 		[
 			[
 				"",
-				"/C/Users/aidan/rails_projects/sample_app/sample_app.sublime-project"
+				"/C/Users/aidan/rails_projects/my_site/my_site.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -683,6 +523,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 235.0,
+	"side_bar_width": 232.0,
 	"status_bar_visible": true
 }

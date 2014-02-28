@@ -3,8 +3,8 @@
 
 # Ignore other unneeded files.
 .project
-.sublime-project
-.sublime-workspace
+wine_scraper.sublime-project
+wine_scraper.sublime-workspace
 *.gem
 pkg/*
 *.swp
