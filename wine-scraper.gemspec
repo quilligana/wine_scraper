@@ -24,5 +24,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency "webmock", "~> 1.17.3"
 
   s.add_dependency "nokogiri", "~> 1.6.1"
-  s.add_dependency "open-uri"
+  s.add_dependency "spork", "~> 0.9.2"
+  s.add_dependency "childprocess", '0.3.6'  
 end
