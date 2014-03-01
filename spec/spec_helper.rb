@@ -7,6 +7,18 @@ Spork.prefork do
   # Loading more in this block will cause your tests to run faster. However,
   # if you change any configuration or code from libraries loaded here, you'll
   # need to restart spork for it take effect.
+  require 'wine-scraper'
+  require 'webmock/rspec'
+  # require File.expand_path("spec/support/fixtures/corkscrew-red.html")
+  WebMock.disable_net_connect!(allow_localhost: true)
+
+  RSpec.configure do |config|
+	  config.before(:each) do
+	    stub_request(:get, "http://www.thecorkscrew.ie/red-wine.html?limit=all").
+		    to_return(:body => File.open(File.dirname(__FILE__) + '/support/fixtures/corkscrew-red.html').read, 
+		    	status: 200)
+	  end
+end
 
 end
 
