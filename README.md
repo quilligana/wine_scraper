@@ -10,15 +10,15 @@ It is envisaged that this application can be integrated with a larger app in ord
 
 Add this line to your application's Gemfile:
 
-    `gem 'wine_scraper'`
+    gem 'wine_scraper'
 
 And then execute:
 
-    `$ bundle`
+    $ bundle
 
 Or install it yourself as:
 
-    `$ gem install wine_scraper`
+    $ gem install wine_scraper
 
 ## Usage
 
@@ -28,7 +28,7 @@ The following example shows how to extract an array of red wines from [*thecorks
 
 ## Testing
 
-TODO: Write testing instructions here
+RSpec has been added as a default task in the Rakefile so just run `rake`
 
 ## License
 
