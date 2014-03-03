@@ -24,7 +24,11 @@ Or install it yourself as:
 
 The following example shows how to extract an array of red wines from [*thecorkscrew.ie*](http://www.thecorkscrew.ie/). The extrated array holds information on wine names, prices, stock availability and a short description.
 
-```red_wines = wine_scrape(corkscrew, red)```
+```red_wines = scrape_wine(corkscrew, red)
+@names = red_wines.names
+@prices = red_wines.prices
+@stockavail = red_wines.avail
+@description = red_wines.description```
 
 ## Testing
 
