@@ -1,1 +1,0 @@
-require 'wine-scraper/scraper'

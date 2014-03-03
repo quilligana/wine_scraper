@@ -3,7 +3,7 @@ require 'spork'
 #uncomment the following line to use spork with the debugger
 #require 'spork/ext/ruby-debug'
 require 'capybara/rspec'
-require 'wine-scraper'
+require 'wine_scraper'
 require 'webmock/rspec'
 WebMock.disable_net_connect!(allow_localhost: true)
 RSpec.configure do |config|
