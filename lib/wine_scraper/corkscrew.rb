@@ -2,6 +2,10 @@ module WineScraper
 
 	class Corkscrew
 
+		def initialze()
+			
+		end
+
 		def red_wine
 			# doc.css(".item").each do |item|
 			# title = item.at_css(".product-name").text

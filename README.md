@@ -24,11 +24,14 @@ Or install it yourself as:
 
 The following example shows how to extract a hash of red wines from [*thecorkscrew.ie*](http://www.thecorkscrew.ie/). The extrated array holds information on wine names, prices, stock availability and a short description.
 
-		red_wines = scrape_wine(corkscrew, red)
-		names = red_wines.names
-		prices = red_wines.prices
-		stockavail = red_wines.avail
-		description = red_wines.description
+		red_wines = ScrapeWine.new(corkscrew, red)
+
+    red_wines.each do |wine|
+  		name = wine[:name]
+  		price = wine[:price]
+  		stockavail = wine[:avail]
+  		description = wine[:description]
+    end
 
 ## Testing
 
