@@ -1,9 +1,9 @@
 module WineScraper
+	module Corkscrew
 
-	class Corkscrew
-
-		def initialze()
-			
+		def get_wine(winetype)
+			@base_url = 'http://www.thecorkscrew.ie/'
+			@url = form_url(@base_url)
 		end
 
 		def red_wine
@@ -25,5 +25,4 @@ module WineScraper
 		end
 
 	end
-	
 end
