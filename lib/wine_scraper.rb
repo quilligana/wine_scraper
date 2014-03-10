@@ -7,7 +7,7 @@ module WineScraper
   def scrape(source, winetype)
     case
     when source == corkscrew
-      wines = Corkscrew.get_wine(winetype)
+      return Corkscrew.get_wine(winetype)
     end
   end
 end
