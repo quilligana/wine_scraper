@@ -26,12 +26,18 @@ The following example shows how to extract a hash of red wines from [*thecorkscr
 
 		red_wines = WineScraper.scrape(corkscrew, red)
 
-    red_wines.each do |wine|
-  		name = wine[:name]
-  		price = wine[:price]
-  		stockavail = wine[:avail]
-  		description = wine[:description]
-    end
+    $ red_wines.first.name
+  		name = "something"
+
+    $ red_wines.first.price
+      price = "0.00"
+
+    $ red_wines.first.availability
+      availability = true
+
+    $ red_wines.first.description
+      description = "something"
+
 
 ## Testing
 
