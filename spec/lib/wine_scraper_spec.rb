@@ -38,19 +38,23 @@ describe WineScraper do
   end
 
   describe WineScraper::Corkscrew  do
+
     describe "get_wine" do
 
     end
-    describe "form_url" do
-      
-    end
-    describe "scrape_wine" do
-      # let!(:result) { WineScraper::Corkscrew.scrape_wine(url) }
-      # subject { result }
 
+    describe "form_url" do
+      result = WineScraper::Corkscrew.form_url("http://www.thecorkscrew.ie/", "red")
+      subject { result }
+      it { should eq "http://www.thecorkscrew.ie/red-wine.html?limit=all" }
+    end
+
+    describe "scrape_wine" do
       it "should return an array of Wine objects" do
         result = WineScraper::Corkscrew.scrape_wine(url)
         expect { result.first }.not_to be_nil
+        expect { result.first.name }.to be { "Fiuza Tres Castas 2012" }
+        expect { result.first.price }.to be { "9.95" }
       end
     end
   end

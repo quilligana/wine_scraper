@@ -1,5 +1,7 @@
 module WineScraper
 	module Corkscrew
+		require "open-uri"
+		require "nokogiri"
 
 		def self.get_wine(winetype)
 			@winetype = winetype
@@ -11,21 +13,22 @@ module WineScraper
 		def self.form_url(base_url, winetype)
 			case winetype
 			when winetype == "red"
-				return base_url+'red-wine.html?limit=all'
+				@url = base_url + 'red-wine.html?limit=all'
 			when winetype == "white"
-				return base_url+'white-wine.html?limit=all'
+				@url = base_url+'white-wine.html?limit=all'
 			end
+			return @url
 		end
 
 		def self.scrape_wine(url)
-			@doc = Scraper.new(url)
+			@html = Nokogiri::HTML(open(url))
 			wines = []
-			@doc.css(".item").each do |item|
+			@html.css(".item").each do |item|
 				product = Wine.new
 				product.name = item.at_css(".product-name").text
 				product.price = item.at_css(".price").text[/[0-9\.]+/]
 				product.availability = true
-				product.description = item.at_css(".description").text
+				product.description = "description"
 				wines << product
 			end
 			return wines

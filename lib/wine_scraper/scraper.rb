@@ -6,7 +6,7 @@ module WineScraper
   	  attr_reader :doc
 
       def initialize url
-        @doc = Nokogiri::HTML(open(url))
+        doc = Nokogiri::HTML(open(url))
       end
 
     end
