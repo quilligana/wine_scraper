@@ -12,12 +12,12 @@ module WineScraper
 
 		def self.form_url(base_url, winetype)
 			case winetype
-			when winetype == "red"
-				@url = base_url + 'red-wine.html?limit=all'
-			when winetype == "white"
+			when "red"
+				@url = "#{base_url}red-wine.html?limit=all"
+			when "white"
 				@url = base_url+'white-wine.html?limit=all'
 			end
-			return @url
+			@url
 		end
 
 		def self.scrape_wine(url)

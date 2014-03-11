@@ -3,12 +3,11 @@ require 'wine_scraper'
 
 describe WineScraper do
 
+  describe "the overall gem functionality" do
+    # test_case = WineScraper.scrape("corkscrew", "red")
+  end
+
   let!(:url){ 'http://www.thecorkscrew.ie/red-wine.html?limit=all' }
-
-  # describe "the overall gem functionality" do
-  #   test_case = WineScraper.scrape("corkscrew", "red")
-  # end
-
   describe WineScraper::Scraper  do
     it "should be instantiated with a 'url' arguement" do
       expect { WineScraper::Scraper.new(url) }.not_to raise_error
@@ -38,14 +37,10 @@ describe WineScraper do
   end
 
   describe WineScraper::Corkscrew  do
-
-    describe "get_wine" do
-
-    end
-
     describe "form_url" do
       result = WineScraper::Corkscrew.form_url("http://www.thecorkscrew.ie/", "red")
       subject { result }
+      it { should_not be_nil }
       it { should eq "http://www.thecorkscrew.ie/red-wine.html?limit=all" }
     end
 
