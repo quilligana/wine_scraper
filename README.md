@@ -24,24 +24,40 @@ Or install it yourself as:
 
 The following example shows how to extract a hash of red wines from [*thecorkscrew.ie*](http://www.thecorkscrew.ie/). The extrated array holds information on wine names, prices, stock availability and a short description.
 
-		red_wines = WineScraper.scrape(corkscrew, red)
+		$ red_wines = WineScraper.scrape(corkscrew, red)
 
     $ red_wines.first.name
-  		name = "something"
+  		=> "something"
+
+    $ red_wines.first.type
+      => "red"
 
     $ red_wines.first.price
-      price = "0.00"
+      => "0.00"
 
     $ red_wines.first.availability
-      availability = true
+      => true/false
 
     $ red_wines.first.description
-      description = "something"
+      => "something"
+
+
+    $ red_wines.size
+      => "367"
 
 
 ## Testing
 
+This Gem is tested with RSpec. The FakeWeb Gem is used to fake web requests to the relevant websites. Currently only [*thecorkscrew.ie*](http://www.thecorkscrew.ie/) is requested in the tests.
+
 RSpec has been added as a default task in the Rakefile so just run `rake`
+
+## Todo
+
+- [] Add all other wine types from [*thecorkscrew.ie*](http://www.thecorkscrew.ie/).
+- [] Update gem to scrape [*Cases Wine Warehouse*](http://www.cases.ie/) and [*TESCO WINE by the case*](http://www.tesco.com/wine/).
+- [] Add CLI methods to Gem.
+- [] Release beta version.
 
 
 ## Contributing
