@@ -24,6 +24,7 @@ Or install it yourself as:
 
 The following example shows how to extract a hash of red wines from [*thecorkscrew.ie*](http://www.thecorkscrew.ie/). The extrated array holds information on wine names, prices, stock availability and a short description.
 
+
 		$ red_wines = WineScraper.scrape(corkscrew, red)
 
     $ red_wines.first.name
