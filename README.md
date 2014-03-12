@@ -24,27 +24,28 @@ Or install it yourself as:
 
 The following example shows how to extract a hash of red wines from [*thecorkscrew.ie*](http://www.thecorkscrew.ie/). The extrated array holds information on wine names, prices, stock availability and a short description.
 
+```ruby
+$ red_wines = WineScraper.scrape(corkscrew, red)
 
-    		$ red_wines = WineScraper.scrape(corkscrew, red)
+$ red_wines.first.name
+	=> "something"
 
-        $ red_wines.first.name
-      		=> "something"
+$ red_wines.first.type
+  => "red"
 
-        $ red_wines.first.type
-          => "red"
+$ red_wines.first.price
+  => "0.00"
 
-        $ red_wines.first.price
-          => "0.00"
+$ red_wines.first.availability
+  => true/false
 
-        $ red_wines.first.availability
-          => true/false
-
-        $ red_wines.first.description
-          => "something"
+$ red_wines.first.description
+  => "something"
 
 
-        $ red_wines.size
-          => "367"
+$ red_wines.size
+  => "367"
+```
 
 
 ## Testing
