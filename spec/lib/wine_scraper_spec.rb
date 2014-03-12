@@ -5,6 +5,12 @@ describe WineScraper do
 
   describe "the overall gem functionality" do
     test_case = WineScraper.scrape("corkscrew", "red")
+    it "should return an array of Wine objects" do
+        expect { test_case.first }.not_to be_nil
+        expect { test_case.first.name }.to be { "Fiuza Tres Castas 2012" }
+        expect { test_case.first.price }.to be { "9.95" }
+        expect { test_case[1] }.not_to be_nil
+      end
   end
 
   let!(:url){ "http://www.thecorkscrew.ie/red-wine.html?limit=all" }
