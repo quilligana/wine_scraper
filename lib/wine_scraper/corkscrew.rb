@@ -7,7 +7,7 @@ module WineScraper
 			@winetype = winetype
 			@base_url = 'http://www.thecorkscrew.ie/'
 			@url = form_url(@base_url, winetype)
-			scrape_wine(@url)
+			scrape_wine(@url, @winetype)
 		end
 
 		def self.form_url(base_url, winetype)
@@ -15,17 +15,18 @@ module WineScraper
 			when "red"
 				@url = "#{base_url}red-wine.html?limit=all"
 			when "white"
-				@url = base_url+'white-wine.html?limit=all'
+				@url = "#{base_url}white-wine.html?limit=all"
 			end
 			@url
 		end
 
-		def self.scrape_wine(url)
+		def self.scrape_wine(url, winetype)
 			@html = Nokogiri::HTML(open(url))
 			wines = []
 			@html.css(".item").each do |item|
 				product = Wine.new
 				product.name = item.at_css(".product-name").text
+				product.type = winetype
 				product.price = item.at_css(".price").text[/[0-9\.]+/]
 				product.availability = true
 				product.description = "description"

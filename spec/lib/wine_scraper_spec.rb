@@ -4,10 +4,10 @@ require 'wine_scraper'
 describe WineScraper do
 
   describe "the overall gem functionality" do
-    # test_case = WineScraper.scrape("corkscrew", "red")
+    test_case = WineScraper.scrape("corkscrew", "red")
   end
 
-  let!(:url){ 'http://www.thecorkscrew.ie/red-wine.html?limit=all' }
+  let!(:url){ "http://www.thecorkscrew.ie/red-wine.html?limit=all" }
   describe WineScraper::Scraper  do
     it "should be instantiated with a 'url' arguement" do
       expect { WineScraper::Scraper.new(url) }.not_to raise_error
@@ -31,6 +31,7 @@ describe WineScraper do
     let!(:faustino) { WineScraper::Wine.new }
     subject { faustino }
     it { should respond_to(:name) }
+    it { should respond_to(:type) }
     it { should respond_to(:price) }
     it { should respond_to(:availability) }
     it { should respond_to(:description) }
@@ -46,10 +47,11 @@ describe WineScraper do
 
     describe "scrape_wine" do
       it "should return an array of Wine objects" do
-        result = WineScraper::Corkscrew.scrape_wine(url)
+        result = WineScraper::Corkscrew.scrape_wine(url, "red")
         expect { result.first }.not_to be_nil
         expect { result.first.name }.to be { "Fiuza Tres Castas 2012" }
         expect { result.first.price }.to be { "9.95" }
+        expect { result[1] }.not_to be_nil
       end
     end
   end

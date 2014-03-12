@@ -5,9 +5,9 @@ require 'wine_scraper/wine'
 
 module WineScraper
   def self.scrape(source, winetype)
-    case
-    when source == "corkscrew"
-      return Corkscrew.get_wine(winetype)
+    case source
+    when "corkscrew"
+      Corkscrew.get_wine(winetype)
     end
   end
 end
