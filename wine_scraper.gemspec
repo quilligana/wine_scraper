@@ -23,5 +23,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rake"
   s.add_development_dependency "rspec", "~> 2.14.1"
   s.add_development_dependency "fakeweb", "~> 1.3.0"
+  s.add_development_dependency "cucumber", "~> 1.3.11"
+  s.add_development_dependency "aruba", "~> 0.5.4"
 
 end

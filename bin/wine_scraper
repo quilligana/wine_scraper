@@ -1,0 +1,2 @@
+require 'wine_scraper/cli'
+WineScraper::CLI.start
